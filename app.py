@@ -144,6 +144,7 @@ else:
         labels={"Persentasi Penduduk Miskin Tiap Kota": "Persentase"},
     )
     st.plotly_chart(bar_fig_PPMTP2)
+    st.write("Diagram batang diatas menunjukkan rata-rata persentase penduduk miskin di setiap provinsi di Indonesia. Mayoritas provinsi memiliki persentase kemiskinan yang berkisar antara 5% hingga 15%. Namun, terdapat beberapa provinsi yang menonjol dengan angka kemiskinan lebih tinggi, seperti Papua dan Papua Barat, yang masing-masing mencatatkan angka di atas 20%. Hal ini mengindikasikan adanya tantangan besar dalam pemerataan pembangunan dan kesejahteraan di wilayah tersebut.")
 
     bar_fig_RLS2 = px.bar(
         grouped,
